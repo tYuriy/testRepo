@@ -1,3 +1,5 @@
+package homeWork;
+
 public class homeWork006 {
     public static void main(String[] args) {
         /*Напишите программу, которая вычисляет сумму квадратов натуральных чисел:*/
