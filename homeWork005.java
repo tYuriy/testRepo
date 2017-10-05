@@ -5,7 +5,6 @@ public class homeWork005 {
     public static void main(String[] args) {
 
         //Напишите программу, которая проверяет делится ли введенное число на 3 и/или 7
-        //чч
 
         String ttl="Введите целое число:";
 
