@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 import static javax.swing.JOptionPane.*;
 
 public class homeWork005 {
