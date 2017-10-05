@@ -3,6 +3,9 @@ import static javax.swing.JOptionPane.*;
 
 public class homeWork005 {
     public static void main(String[] args) {
+
+        //Напишите программу, которая проверяет делится ли введенное число на 3 и/или 7
+
         String ttl="Введите целое число:";
 
         /*Scanner scanner = new Scanner(System.in);
