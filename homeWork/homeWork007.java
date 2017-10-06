@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class homeWork007 {
     public static void main(String[] args) {
+        //Напишите программу, которая по номеру дня недели выводит его название
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите целое число от 1 до 7");
+        try {
         int num = Integer.parseInt(scanner.nextLine());
-
         switch (num) {
             case 1:
                 System.out.println("Monday");
@@ -31,7 +33,9 @@ public class homeWork007 {
                 System.out.println("Sunday");
                 break;
             default:
-                System.out.println("Введено некорректное число");
+                System.out.println("Введеное число находится вне указанного диапазона");}
+        }catch (NumberFormatException ex){
+            System.out.println("Неправильный формат данных");
         }
     }
 }
