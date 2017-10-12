@@ -1,6 +1,6 @@
 package homeWork;
 
-public class homeWork009snake {
+public class HomeWork009snake {
     public static void main(String[] args) {
         //Присвоить значения элементам двумерного массива змейкой
         int m=8;//кол-во строк массива
@@ -10,7 +10,10 @@ public class homeWork009snake {
 
         int i = 0;
         int j = 0;
-        int iStart=0, jEnd = nums[0].length-1, jStart=0, iEnd = nums.length-1;
+        int iStart=0;
+        int iEnd = nums.length-1;
+        int jStart=0;
+        int jEnd = nums[0].length-1;
 
         //System.out.println("Кол-во строк: " + nums.length);
         //System.out.println("Кол-во столбцов: " + nums[0].length);
