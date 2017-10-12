@@ -1,4 +1,4 @@
-package homeWork;
+package homeWork.lesson06;
 
 public class HomeWork009snake {
     public static void main(String[] args) {
