@@ -1,9 +1,9 @@
-package lessonJavaStart.lesson5;
+package lessonJavaStart.lesson6;
 
 public class StrangeArrayDemo {
     public static void main(String[] args){
     // Массив с размерами строк:
-        int[] n={2,5,3,4};
+        int[] n={2,5,3,4,14};
         int val=1;
         // Массив строк:
         int[][] A=new int[n.length][];

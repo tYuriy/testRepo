@@ -1,4 +1,4 @@
-package lessonJavaStart.lesson5;
+package lessonJavaStart.lesson6;
 
 public class ProgArgsDemo {
     public static void main(String[] args){

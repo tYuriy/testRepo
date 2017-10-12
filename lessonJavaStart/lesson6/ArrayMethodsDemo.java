@@ -1,4 +1,4 @@
-package lessonJavaStart.lesson5;
+package lessonJavaStart.lesson6;
 
 import java.util.Arrays;
 
@@ -17,7 +17,7 @@ public class ArrayMethodsDemo {
         System.out.println("A==B: "+Arrays.equals(A,B));
         Arrays.fill(B,2,4,0); // Заполнение части массива
         System.out.println("B: "+Arrays.toString(B));
-        int [] C=Arrays.copyOfRange(A,1,5); // Копия части массива
+        int [] C=Arrays.copyOfRange(A,1,4); // Копия части массива
         System.out.println("C: "+Arrays.toString(C));
         int[] D=new int[4]; // Новый массив
         System.arraycopy(B,1,D,0,C.length); // Копия части массива

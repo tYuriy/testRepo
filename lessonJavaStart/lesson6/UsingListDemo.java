@@ -1,4 +1,4 @@
-package lessonJavaStart.lesson5;
+package lessonJavaStart.lesson6;
 
 import javax.swing.*;
 import static javax.swing.JOptionPane.*;

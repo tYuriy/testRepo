@@ -1,4 +1,4 @@
-package lessonJavaStart.lesson5;
+package lessonJavaStart.lesson6;
 
 public class TransposeDemo {
     // Метод для отображения содержимого массива:
