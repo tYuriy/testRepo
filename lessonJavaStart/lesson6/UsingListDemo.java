@@ -7,11 +7,11 @@ public class UsingListDemo {
     public static void main(String[] args) {
         String[] txt={"Ёжик","Тушканчик","Лисица","Главоглаз"}; // Названия животных
         // Названия файлов с изображениями животных:
-        String[] files={"ezhyk.jpg","tushkan.jpg","fox.jpg","glavoglaz.jpg"};
-        String folder="d:/books/pictures/"; // Путь к файлам
+        String[] files={"ezhyk.jpg","tushkan.jpg","fox.jpg","gl.png"};
+        String folder="E:\\MEGA\\java\\pics\\";//"d:/books/pictures/"; // Путь к файлам
         String msg="Кого показать?"; // Текст в окне
         String title="В мире животных"; // Название окна
-        ImageIcon img=new ImageIcon(folder+"giraffe.png"); // Пиктограмма
+        ImageIcon img=new ImageIcon(folder+"ezhyk.jpg"); // Пиктограмма
         String animal; // Имя выбранного животного
         animal=(String)showInputDialog(null,
                 msg, // Текст над раскрывающимся списком
