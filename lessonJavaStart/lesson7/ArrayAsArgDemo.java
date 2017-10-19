@@ -20,7 +20,7 @@ public class ArrayAsArgDemo {
     public static void main(String[] args){
 // Массивы:
         int[] A={1,3,5,7,9,11,13,15};
-        int[] B=new int[5];
+        int[] B=new int[10];
         fillArray(B); // Массив B заполняется случайными числами
         System.out.println("Массив A:");
         show(A); // Отображается массив A

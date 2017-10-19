@@ -41,7 +41,7 @@ public class ArgsPassDemo {
         System.out.println("До вызова метода bravo(): B="+ Arrays.toString(B));
         bravo(B);
         System.out.println("После вызова метода bravo(): B="+Arrays.toString(B));
-        int[] C={2,4,6}; // Массив для передачи аргументом
+        int[] C={11,12,13}; // Массив для передачи аргументом
         System.out.println("До вызова метода charlie(): C="+Arrays.toString(C));
         charlie(C);
         System.out.println("После вызова метода charlie(): C="+Arrays.toString(C));

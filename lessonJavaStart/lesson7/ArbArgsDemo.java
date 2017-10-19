@@ -2,7 +2,7 @@ package lessonJavaStart.lesson7;
 
 public class ArbArgsDemo {
     // Метод для вычисления суммы чисел:
-    static int sum(int... a){
+    static int sum(int...a){
         int res=0;
         for(int k=0;k<a.length;k++){
             res+=a[k];
